@@ -1,0 +1,67 @@
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Card container */
+.card {
+  background-color: #fff;
+  width: 250px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Product image */
+.card img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+/* Product title */
+.card h2 {
+  font-size: 16px;
+  margin: 10px 0;
+  color: #0f1111;
+}
+
+/* Rating */
+.card .rating {
+  color: #f0c14b;
+  margin: 8px 0;
+}
+
+/* Price */
+.card .price {
+  color: #b12704;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Delivery */
+.card .delivery {
+  color: #565959;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+/* Button */
+.card button {
+  background-color: #ffd814;
+  border: 1px solid #fcd200;
+  padding: 10px 16px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+  background-color: #f7ca00;
+}
